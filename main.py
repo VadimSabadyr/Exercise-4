@@ -33,20 +33,3 @@ class Beverage:
             return f"{st} Smoothie"
         elif self.cout > 1:
             return (f"{st} Fusion")
-
-
-
-
-
-s1 = Beverage(["Banana"])
-print(s1)
-print(s1.ingredients)
-print(s1.get_cost())
-print(s1.get_price())
-print(s1.get_name())
-s2 = Beverage(["Raspberries", "Strawberries", "Blueberries"])
-print(s2.ingredients)
-print(s2.get_cost())
-print(s2.get_price())
-print(s2.get_name())
-
